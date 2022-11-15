@@ -16,6 +16,7 @@
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
+  color : red;
 }
 .n-right {
   flex: 1;
