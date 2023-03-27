@@ -8,13 +8,11 @@ footer{
 }
 footer a{
     color: var(--color-bg);
-    
+    text-decoration: none;
     
 } 
 footer a:hover{
-    color: var(--color-white);
-   
-    
+    color: var(--color-white); 
 } 
 .footer__logo{
     font-size: 2rem;
@@ -28,6 +26,8 @@ footer a:hover{
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    list-style: none;
+    text-decoration: none;
 }
 .footer__socials{
     display: flex;

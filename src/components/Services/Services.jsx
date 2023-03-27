@@ -27,9 +27,13 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>What I Offer</span>
         <span>Skills</span>
         <spane>
-        JavaScript,React, Node, Mongo DB and React Native
+        <strong> JavaScript,React, Node, Mongo DB and React Native
+          </strong>
           <br />
-          I'm self-taught Developer with vast knowledge in web development and mobile application
+          I am a Full Stack Developer  from Kenya Nairobi who has worked with <br />
+           JavaScript, Node.js, React, and Redux. <br />
+           I'm interested in Full Stack Developer and like hiking and reading about <br /> 
+           the newest technological developments in my leisure time.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -70,9 +74,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"React-native"}
+            heading={"React-Native"}
             detail={
-              "Mobile and Ios Application"
+              "Mobile and IOS Application"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

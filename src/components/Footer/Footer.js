@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { RiMessengerLine } from 'react-icons/ri';
-import {BsTwitter,BsInstagram,BsLinkedin  } from 'react-icons/bs';
+import {BsTwitter,BsLinkedin, BsGithub} from 'react-icons/bs';
 
 function Footer() {
     return (
@@ -17,12 +17,12 @@ function Footer() {
             </ul>
             <div className="footer__socials">
                 <a href="https://www.facebook.com/michaelwa.kithinji"><RiMessengerLine/></a>
-                <a href="htpps://instagram.com"><BsInstagram/></a>
-                <a href="htpps://twitter.com"><BsTwitter/></a>
-                <a href="https://www.linkedin.com/in/dev-mike-5a09ab167/"><BsLinkedin/></a>
+                <a href="https://twitter.com/DevMichael11"><BsTwitter/></a>
+                <a href="https://www.linkedin.com/in/michael-kithinji-5a09ab167/"><BsLinkedin/></a>
+                <a href="https://github.com/MICHAELKITH"><BsGithub/></a>
             </div>
             <div className="footer__copyright">
-                <small>&copy;  All rights reserved 2022</small>
+                <small>&copy;  All rights reserved 2023</small>
             </div>
 
         </footer>
