@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Sidebar from "../../img/Z100.jpeg";
+import Sidebar from "../../img/javascrt.png";
 import Ecommerce from "../../img/Z.jpeg";
-import HOC from "../../img/9.jpeg";
+import Todo from "../../img/todo.png";
 import MusicApp from "../../img/calc.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent</span>
       <span>Projects</span>
 
       {/* slider */}
@@ -24,16 +24,20 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://michaelkith.github.io/Capstone-1-Project/">
+            <img src={Sidebar} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://michaelkith.github.io/To-do/">
+            <img src={Todo} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
