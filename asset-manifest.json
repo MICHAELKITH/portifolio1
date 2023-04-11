@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portifolio1/static/css/main.397738a3.css",
-    "main.js": "/portifolio1/static/js/main.4605fe86.js",
+    "main.css": "/portifolio1/static/css/main.cce6f3b1.css",
+    "main.js": "/portifolio1/static/js/main.637867e9.js",
+    "static/media/javascrt.png": "/portifolio1/static/media/javascrt.f220a539019f8c5a12a1.png",
     "static/media/resume.pdf": "/portifolio1/static/media/resume.585c7d174d205f997c51.pdf",
     "static/media/boy.PNG": "/portifolio1/static/media/boy.2a3017753a5f35f4f9bd.PNG",
     "static/media/glassesimoji.png": "/portifolio1/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/todo.png": "/portifolio1/static/media/todo.758fa74ac4730d2a97f8.png",
     "static/media/thumbup.png": "/portifolio1/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/humble.png": "/portifolio1/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/portifolio1/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
     "static/media/crown.png": "/portifolio1/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/Vector2.png": "/portifolio1/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/portifolio1/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
-    "static/media/9.jpeg": "/portifolio1/static/media/9.0768a26fa1ebec8986aa.jpeg",
     "index.html": "/portifolio1/index.html",
-    "main.397738a3.css.map": "/portifolio1/static/css/main.397738a3.css.map",
-    "main.4605fe86.js.map": "/portifolio1/static/js/main.4605fe86.js.map"
+    "main.cce6f3b1.css.map": "/portifolio1/static/css/main.cce6f3b1.css.map",
+    "main.637867e9.js.map": "/portifolio1/static/js/main.637867e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.397738a3.css",
-    "static/js/main.4605fe86.js"
+    "static/css/main.cce6f3b1.css",
+    "static/js/main.637867e9.js"
   ]
 }
