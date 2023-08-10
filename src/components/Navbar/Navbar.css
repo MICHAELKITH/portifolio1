@@ -5,6 +5,7 @@
   margin-bottom: 2rem;
   top: 0;
 }
+
 .n-left {
   flex: 1;
   align-items: center;
@@ -16,8 +17,9 @@
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
-  color : red;
+  color: red;
 }
+
 .n-right {
   flex: 1;
   display: flex;
@@ -29,6 +31,7 @@
 .n-list {
   flex: 10;
 }
+
 .n-list > ul {
   display: flex;
   gap: 2rem;

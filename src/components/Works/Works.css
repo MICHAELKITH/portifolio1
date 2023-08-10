@@ -7,6 +7,7 @@
   /* scroll */
   align-items: center;
 }
+
 /* left side */
 .awesome {
   display: flex;
@@ -19,16 +20,19 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .awesome > :nth-child(2) {
   color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .awesome > :nth-child(3) {
   color: var(--gray);
   font-size: 14px;
   margin-top: 1rem;
 }
+
 .s-button {
   width: 8rem;
   height: 2rem;
@@ -49,32 +53,40 @@
   box-shadow: var(--smboxShadow);
   top: 2rem;
   background: white;
+
   /* darkMode */
   z-index: 2;
 }
+
 .w-mainCircle > * {
   position: absolute;
 }
+
 .w-mainCircle > :nth-child(1) {
   top: -3rem;
   left: 6rem;
 }
+
 .w-mainCircle > :nth-child(2) {
   left: -3rem;
   top: 5rem;
 }
+
 .w-mainCircle > :nth-child(3) {
   left: 6rem;
   top: 5rem;
 }
+
 .w-mainCircle > :nth-child(4) {
   left: 15rem;
   top: 5rem;
 }
+
 .w-mainCircle > :nth-child(5) {
   left: 6rem;
   top: 13rem;
 }
+
 .w-secCircle {
   width: 6rem;
   height: 6rem;
@@ -98,14 +110,17 @@
   height: 13rem;
   width: 13rem;
   border-radius: 100%;
+
   /* darkMode */
   z-index: 1;
 }
+
 .blueCircle {
   background: #1949b8;
   left: 18rem;
-  top: 0rem;
+  top: 0;
 }
+
 .yellowCircle {
   background: #f5c32c;
   left: 18rem;
@@ -123,14 +138,15 @@
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
+    justify-content: start;
     transform: scale(0.7);
   }
-  .w-mainCircle{
+
+  .w-mainCircle {
     position: static;
   }
-  .w-backCircle{
-    left: 8rem!important;
-  }
 
+  .w-backCircle {
+    left: 8rem !important;
+  }
 }
