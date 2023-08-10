@@ -1,10 +1,10 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
 import { RiMessengerLine } from 'react-icons/ri';
-import {BsTwitter,BsLinkedin, BsGithub} from 'react-icons/bs';
+import { BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Footer() {
-    return (
+  return (
         <footer>
             <a href="" className='footer__logo'>Dev Mike</a>
             <ul className='permalinks'>
@@ -27,7 +27,7 @@ function Footer() {
 
         </footer>
 
-    )
+  );
 }
 
-export default Footer
+export default Footer;
