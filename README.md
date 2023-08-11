@@ -36,7 +36,7 @@ HTML | CSS | GIT
 
 - GitHub: [@githubhandle](https://github.com/MICHAELKITH)
 - Twitter: [@twitterhandle](https://twitter.com/DevMichael11)
-- LinkedIn: [LinkedIn](linkedin.com/in/dev-mike-5a09ab167)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/michaelkithinji/)
 
 
 ## 📝 License <a name="license"></a>
