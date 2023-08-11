@@ -29,7 +29,7 @@ Web development
 <br />
 Mentoring 
 <br />
-Mobile app development
+Database Application 
 
           </spane>
           <Link to="contact" smooth={true} spy={true}>
