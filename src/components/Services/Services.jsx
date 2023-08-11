@@ -27,11 +27,11 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>What I Offer</span>
         <span>Skills</span>
         <spane>
-        <strong> JavaScript,React, Node, Mongo DB and React Native
+        <strong> JavaScript,React, Postgress and Ruby on Rails
           </strong>
           <br />
           Based in Nairobi, Kenya, I am a Full Stack Developer with expertise in JavaScript, 
-          Node.js, React, and Redux. <br/>
+          Ruby on Rails React, and Redux. <br/>
           I have a strong interest in Full Stack Development and enjoy 
           hiking and staying updated with the latest technological developments <br/> in my leisure time.
 
@@ -64,7 +64,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Web Developer"}
-            detail={" JavaScript, Reactjs, Nodejs, Expressjs, Nextjs"}
+            detail={" JavaScript, Reactjs, Ruby on Rails, Nextjs"}
           />
         </motion.div>
         {/* 3rd */}
@@ -75,9 +75,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"React-Native"}
+            heading={"Postgres"}
             detail={
-              "Mobile and IOS Application"
+              "Database Application"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

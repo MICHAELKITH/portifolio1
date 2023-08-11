@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/javascrt.png";
-import Ecommerce from "../../img/Z.jpeg";
+import Budget from "../../img/budget app.png"
 import Todo from "../../img/todo.png";
 import MusicApp from "../../img/calc.png";
 import Finance from "../../img/finance app.png";
@@ -24,6 +24,12 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+         <SwiperSlide>
+          <a href="https://mike-bpc1.onrender.com/groups/11">
+            <h1>Budget App</h1>
+          <img src={Budget} alt="" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
         
           <a href="https://michaelkith.github.io/Capstone-1-Project/">
@@ -44,9 +50,7 @@ const Portfolio = () => {
           <img src={Finance} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
-        </SwiperSlide>
+       
       </Swiper>
     </div>
   );

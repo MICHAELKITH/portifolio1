@@ -5,7 +5,7 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/wA08eC3qmZfgwAAAABJRU5ErkJggg==.png";
+import profilePic1 from "../../img/AMINE.jpg";
 import profilePic2 from "../../img/9k=.jpeg";
 
 const Testimonial = () => {
@@ -13,7 +13,7 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "You showed incredible leadership instincts in your work on that project. I would love to work with you to develop those skills. Amazing work",
+        "Michael is a highly skilled software developer that would be a great fit for any company. We worked together during our formation at Microverse an online school.",
     },
     {
       img: profilePic2,
