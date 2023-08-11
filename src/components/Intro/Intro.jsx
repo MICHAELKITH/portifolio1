@@ -30,8 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>I Am</span>
           <span>Dev Mike</span>
           <span>
-            Javascript full-stack developer with high level of experience in web designing
-            and development, producing Quality work
+          A highly experienced full-stack developer proficient in web design and development, capable of producing high-quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +38,10 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/MICHAELKITH"><img src={Github} alt="" /></a>
+          
+          <a href="https://www.linkedin.com/in/michaelkithinji/"><img src={LinkedIn} alt="" /></a>
+          <a href=""><img src={Instagram} alt="" /></a>
         </div>
       </div>
       {/* right image side */}

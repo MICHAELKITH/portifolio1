@@ -30,10 +30,11 @@ const Services = () => {
         <strong> JavaScript,React, Node, Mongo DB and React Native
           </strong>
           <br />
-          I am a Full Stack Developer  from Kenya Nairobi who has worked with <br />
-           JavaScript, Node.js, React, and Redux. <br />
-           I'm interested in Full Stack Developer and like hiking and reading about <br /> 
-           the newest technological developments in my leisure time.
+          Based in Nairobi, Kenya, I am a Full Stack Developer with expertise in JavaScript, 
+          Node.js, React, and Redux. <br/>
+          I have a strong interest in Full Stack Development and enjoy 
+          hiking and staying updated with the latest technological developments <br/> in my leisure time.
+
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>

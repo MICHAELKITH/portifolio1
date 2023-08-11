@@ -23,13 +23,14 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            <strong>I have managed several projects online for different clients including: </strong>
-            <br />
-            Web development
-            <br />
-            Mobile app development
-            <br />
-            IOS Applications
+          <strong>I have managed several projects online for different clients, including:</strong>
+<br />
+Web development
+<br />
+Mentoring 
+<br />
+Mobile app development
+
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

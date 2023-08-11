@@ -11,6 +11,15 @@ footer a {
   text-decoration: none;
 }
 
+.footer__socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.9rem;
+  display: flex;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
 footer a:hover {
   color: var(--color-white);
 }
@@ -39,15 +48,6 @@ footer a:hover {
   margin-bottom: 4rem;
 }
 
-.footer__socials a {
-  background: var(--color-bg);
-  color: var(--color-white);
-  padding: 0.9rem;
-  display: flex;
-  border: 1px solid transparent;
-  border-radius: 5px;
-}
-
 .footer__socials a:hover {
   background: transparent;
   color: var(--color-bg);
@@ -63,14 +63,13 @@ footer a:hover {
   .permalinks {
     flex-direction: column;
     gap: 1.5rem;
+    margin-bottom: 2.6rem;
   }
 
   .footer__socials {
     margin-bottom: 2.6rem;
   }
-}
 
-@media screen and (max-width: 960px) {
   .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;

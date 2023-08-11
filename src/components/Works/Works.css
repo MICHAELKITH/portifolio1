@@ -96,7 +96,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: "none";
   box-shadow: var(--smboxShadow);
   background: white;
 }

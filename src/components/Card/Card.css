@@ -6,7 +6,6 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-  width: 10rem;
   text-align: center;
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--orangeCard);

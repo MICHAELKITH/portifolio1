@@ -19,6 +19,11 @@
   font-weight: bold;
 }
 
+/* Reordered selectors */
+.testimonial > span {
+  color: var(--gray);
+}
+
 .t-heading span:nth-of-type(2) {
   color: var(--orange);
 }
@@ -41,8 +46,6 @@
   padding: 2rem;
   width: 30rem;
   height: 12rem;
-
-  /* styles same as work.css */
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
@@ -55,10 +58,7 @@
   border-radius: 100%;
 }
 
-.testimonial > span {
-  color: var(--gray);
-}
-
+/* Rest of your CSS code */
 
 /* slider */
 .t-wrapper .swiper {
