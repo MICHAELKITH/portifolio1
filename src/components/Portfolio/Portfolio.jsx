@@ -6,6 +6,7 @@ import Sidebar from "../../img/javascrt.png";
 import Ecommerce from "../../img/Z.jpeg";
 import Todo from "../../img/todo.png";
 import MusicApp from "../../img/calc.png";
+import Finance from "../../img/finance app.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,17 +25,24 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+        
           <a href="https://michaelkith.github.io/Capstone-1-Project/">
+          <h1>Learn Web Development</h1>
             <img src={Sidebar} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+         
           <a href="https://michaelkith.github.io/To-do/">
+          <h1>Todo list</h1>
             <img src={Todo} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://test-branch--deluxe-puffpuff-cd2d13.netlify.app/">
+          <h1>Finance App</h1>
+          <img src={Finance} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
