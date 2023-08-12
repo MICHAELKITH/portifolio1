@@ -16,7 +16,7 @@ const Experience = () => {
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>8+</div>
         <span  style={{color: darkMode?'white':''}}>Completed </span>
-        <a href="https://github.com/MICHAELKITH">
+        <a href="https://github.com/MICHAELKITH" className="github">
         <span>My Projects</span>
         </a>
       </div>

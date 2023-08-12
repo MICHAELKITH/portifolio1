@@ -47,6 +47,15 @@
   color: var(--orange);
 }
 
+.github {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.github:hover {
+  color: #87e6fb;
+}
+
 @media screen and (max-width: 480px) {
   .experience {
     transform: scale(0.7);
