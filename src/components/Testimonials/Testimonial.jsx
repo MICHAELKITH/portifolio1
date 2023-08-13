@@ -18,7 +18,7 @@ const Testimonial = () => {
     {
       img: profilePic2,
       review:
-        "He's clear, constructive and consistent during working hours.",
+        "He exhibits a transparent, productive, and unwavering approach throughout his working hours.",
     }
   ];
 
