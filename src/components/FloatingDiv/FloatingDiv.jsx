@@ -1,20 +1,24 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './FloatingDiv.css';
 
-import './FloatingDiv.css'
-
-
-const FloatinDiv = ({img, text1, text2}) => {
+function FloatingDiv({ img, text1, text2 }) {
   return (
-    // darkMode
-    <div className="floatingDiv">
+    <div className="floating-div">
       <img src={img} alt="" />
       <span>
         {text1}
-        <br/>
+        <br />
         {text2}
       </span>
     </div>
   );
+}
+
+FloatingDiv.propTypes = {
+  img: PropTypes.string.isRequired,
+  text1: PropTypes.string.isRequired,
+  text2: PropTypes.string.isRequired,
 };
 
-export default FloatinDiv;
+export default FloatingDiv;

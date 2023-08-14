@@ -1,15 +1,16 @@
-import React, { useContext } from "react";
-import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Facebook from "../../img/Facebook.png";
-import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import React, { useContext } from 'react';
+import './Works.css';
+import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
+import Upwork from '../../img/Upwork.png';
+import Fiverr from '../../img/fiverr.png';
+import Facebook from '../../img/Facebook.png';
+import { themeContext } from '../../Context';
+
 const Works = () => {
   // context
   const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  const { darkMode } = theme.state;
 
   // transition
   return (
@@ -18,27 +19,30 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
-           As Freelancer!
+          <span style={{ color: darkMode ? 'white' : '' }}>
+            As Freelancer!
           </span>
           <span>Brands & Clients</span>
           <spane>
-          <strong>I have managed several projects online for different clients, including:</strong>
-<br />
-Web development
-<br />
-Mentoring 
-<br />
-Database Application 
+            <strong>
+              I have managed several projects online for different clients,
+              including:
+            </strong>
+            <br />
+            Web development
+            <br />
+            Mentoring
+            <br />
+            Database Application
 
           </spane>
-          <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+          <Link to="contact" smooth spy>
+            <button type="button" className="button s-button">Hire Me</button>
           </Link>
           <div
             className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></div>
+            style={{ background: '#ABF1FF94' }}
+          />
         </div>
 
         {/* right side */}
@@ -47,8 +51,8 @@ Database Application
         <motion.div
           initial={{ rotate: 45 }}
           whileInView={{ rotate: 0 }}
-          viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
+          viewport={{ margin: '-40px' }}
+          transition={{ duration: 3.5, type: 'spring' }}
           className="w-mainCircle"
         >
           <div className="w-secCircle">
@@ -62,8 +66,8 @@ Database Application
           </div>
         </motion.div>
         {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
+        <div className="w-backCircle blueCircle" />
+        <div className="w-backCircle yellowCircle" />
       </div>
     </div>
   );

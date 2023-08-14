@@ -1,15 +1,25 @@
-import React from "react";
-import "./Card.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './Card.css';
 
-const Card = ({emoji, heading, detail, color}) => {
+function Card({
+  emoji, heading, detail, color,
+}) {
   return (
-    <div className="card" style={{borderColor: {color}}}> 
+    <div className="card" style={{ borderColor: color }}>
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+      <button type="button" className="c-button">LEARN MORE</button>
     </div>
   );
+}
+
+Card.propTypes = {
+  emoji: PropTypes.string.isRequired,
+  heading: PropTypes.string.isRequired,
+  detail: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
 };
 
 export default Card;

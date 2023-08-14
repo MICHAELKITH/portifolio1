@@ -1,4 +1,5 @@
-import { createContext, useReducer } from 'react';
+import React, { createContext, useReducer, useMemo } from 'react';
+import PropTypes from 'prop-types';
 
 export const themeContext = createContext();
 
@@ -13,9 +14,19 @@ const themeReducer = (state, action) => {
   }
 };
 
-export const ThemeProvider = (props) => {
+export function ThemeProvider({ children }) {
   const [state, dispatch] = useReducer(themeReducer, initialState);
+  const contextValue = useMemo(() => ({ state, dispatch }), [state, dispatch]);
+
   return (
-    <themeContext.Provider value={{ state, dispatch }}>{props.children}</themeContext.Provider>
+    <themeContext.Provider value={contextValue}>
+      {children}
+    </themeContext.Provider>
   );
+}
+
+ThemeProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };
+
+export default ThemeProvider;

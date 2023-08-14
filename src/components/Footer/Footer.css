@@ -1,5 +1,6 @@
-footer {
-  background: var(--blueCard);
+/* Footer.css */
+.footer {
+  background: var(--blue-card);
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
@@ -12,7 +13,7 @@ footer a {
   text-decoration: none;
 }
 
-.footer__socials a {
+.footer-socials a {
   background: var(--color-bg);
   color: var(--color-white);
   padding: 0.9rem;
@@ -25,7 +26,7 @@ footer a:hover {
   color: var(--color-white);
 }
 
-.footer__logo {
+.footer-logo {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
@@ -42,37 +43,53 @@ footer a:hover {
   text-decoration: none;
 }
 
-.footer__socials {
+.footer-socials {
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin-bottom: 4rem;
 }
 
-.footer__socials a:hover {
+.footer-socials a:hover {
   background: transparent;
   color: var(--color-bg);
   border-color: var(--color-bg);
 }
 
-.footer__copyright {
+.footer-copyright {
   margin-bottom: 4rem;
   color: var(--color-bg);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) { /* Corrected the media query syntax */
   .permalinks {
     flex-direction: column;
     gap: 1.5rem;
     margin-bottom: 2.6rem;
+    justify-content: center;
+    display: none;
   }
 
-  .footer__socials {
+  .footer-socials {
     margin-bottom: 2.6rem;
   }
 
-  .container.contact__container {
+  .contact-container {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .footer-logo {
+    display: block; /* Change to block to take full width */
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+
+  .footer-logo:hover {
+    background-color: var(--orange);
+  }
+
+  .footer-copyright {
+    padding-left: 3rem;
   }
 }
