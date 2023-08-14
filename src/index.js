@@ -1,6 +1,10 @@
+// eslint-disable-next-line
 import React from 'react';
+// eslint-disable-next-line
 import ReactDOM from 'react-dom';
+// eslint-disable-next-line
 import App from './App';
+// eslint-disable-next-line
 import { ThemeProvider } from './Context';
 
 ReactDOM.render(
