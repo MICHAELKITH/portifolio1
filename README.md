@@ -57,14 +57,16 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/MICHAELKITH/microverse-mike-portifolio.git
+Clone this repository to your desired folder: [here](https://github.com/MICHAELKITH/microverse-mike-portifolio.git)
 
-Link to this website https://michaelkith.github.io/portifolio1/
+Link to this website[here](https://michaelkith.github.io/portifolio1/)
+
 
 
 ### Install
 
 Install this project with:
+npm install
 
 
 ### Usage
@@ -88,7 +90,11 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Recent coding skills page]**
+- [ ] **[Recent Projects]**
+- [ ]Budget App [here](https://mike-bpc1.onrender.com/users/sign_in)
+- [ ]Javascript Bootcamp [here](https://michaelkith.github.io/Capstone-1-Project/)
+- [ ]Todo-List [here](https://michaelkith.github.io/To-do/)
+- [ ]Finance App [here](https://test-branch--deluxe-puffpuff-cd2d13.netlify.app/)
 - [ ] **[Working experience page]**
 - [ ] **[new_feature_3]**
 
