@@ -28,12 +28,12 @@ const Services = () => {
         <span>Expertise</span>
         <spane>
           <strong>
-            <ul>
+            <ol>
               <li>Creating responsive websites</li>
               <li>Incorporating payment gateways</li>
               <li>Technology Stack: JavaScript, React, Ruby on Rails,  PostgreSQL</li>
               <li>Executing user authentication</li>
-            </ul>
+            </ol>
           </strong>
         </spane>
         <a href={Resume} download>

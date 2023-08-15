@@ -19,9 +19,9 @@
   /* gap: 20px; */
 }
 
-.awesome li {
+/* .awesome li {
   list-style: none;
-}
+} */
 
 .awesome > :nth-child(1) {
   color: var(--black);

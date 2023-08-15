@@ -10,7 +10,9 @@ function Card({
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <button type="button" className="c-button">LEARN MORE</button>
+      <a href="https://react.dev/">
+        <button type="button" className="c-button">LEARN MORE</button>
+      </a>
     </div>
   );
 }

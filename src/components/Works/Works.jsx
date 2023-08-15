@@ -25,14 +25,14 @@ const Works = () => {
           <span>Partnerships with brands and clients.</span>
           <spane>
             <strong>Skills:</strong>
-            <ul>
+            <ol>
               <li>Web Development (HTML, CSS, JavaScript)</li>
               <li>Database Management ( PostgreSQL)</li>
               <li>Frontend Frameworks (React)</li>
               <li>Backend (Ruby on Rails)</li>
               <li>Project Management</li>
               <li>Mentoring and Training</li>
-            </ul>
+            </ol>
             <br />
 
           </spane>

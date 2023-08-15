@@ -24,6 +24,11 @@
   font-family: var(--color-family);
 }
 
+.intro-line {
+  font-family: var(--color-family);
+  font-size: 12px;
+}
+
 .i-name > :nth-child(1) {
   color: black;
   font-weight: bold;

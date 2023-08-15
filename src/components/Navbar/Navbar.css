@@ -29,9 +29,9 @@
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
-  color: red;
+  color: var(--orange);
   padding-left: 20px;
-  animation: bounceAnimation 1.5s infinite;
+  animation: bounceAnimation 5.5s infinite;
 }
 
 @keyframes bounceAnimation {

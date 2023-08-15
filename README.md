@@ -20,15 +20,15 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license--1)
 
-# 📖  Portfolio-Desktop-version <a name="about-project"></a>
+# 📖  Portfolio  <a name="about-project"></a>
 
-**Portifolio Mobile and set up first** this is a project to set up first  Portfolio-Desktop-version 
+**The "portifolio1" repository is a web development portfolio created using the React.js library. The portfolio features a clean and modern design with several sections, including an about me section, a list of projects with detailed descriptions and links to their respective repositories and demo pages, and a contact section with a form for users to** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML | CSS | GIT
+React | CSS | GIT
 
 ## 👥 Author <a name="author"></a>
 
@@ -124,22 +124,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank my Microverse recruiters team
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I want to give a big thanks to Microverse for giving us the chance to achieve this milestone
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
