@@ -4,6 +4,7 @@
   height: 30rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
+  font-family: var(--color-family);
 
   /* scroll view */
   padding-top: 3rem;
@@ -16,6 +17,10 @@
   position: relative;
 
   /* gap: 20px; */
+}
+
+.awesome li {
+  list-style: none;
 }
 
 .awesome > :nth-child(1) {

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
-import boy from '../../img/boy.PNG';
+import boy from '../../img/github.jpg';
 import glassesimoji from '../../img/glassesimoji.png';
 import thumbup from '../../img/thumbup.png';
 import crown from '../../img/crown.png';
@@ -29,7 +29,7 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? 'white' : '' }}>I Am</span>
-          <span>Dev Mike</span>
+          <span>Michael</span>
           <span>
             A highly experienced full-stack developer proficient in web design and development,
             capable of producing high-quality work
@@ -46,7 +46,7 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/michaelkithinji/">
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          <a href="https://twitter.com/DevMichael11">
+          <a href="https://www.instagram.com/michael_senji/">
             <img src={Instagram} alt="Instagram" />
           </a>
         </div>

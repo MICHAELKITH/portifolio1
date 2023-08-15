@@ -8,6 +8,7 @@
   flex-direction: column;
   gap: 2rem;
   position: relative;
+  font-family: var(--color-family);
 }
 
 .t-heading {

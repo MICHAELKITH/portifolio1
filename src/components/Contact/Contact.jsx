@@ -48,9 +48,9 @@ function Contact() {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" className="user" placeholder="John Doe" required />
-          <input type="email" name="email" className="user" placeholder="johndoe@gmail.com" required />
-          <textarea name="message" className="user" placeholder="How can I help you?" required />
+          <input type="text" name="name" className="user" placeholder="Enter Your Name" required />
+          <input type="email" name="email" className="user" placeholder="Your Email" required />
+          <textarea name="message" className="user" placeholder="Write here!" required />
           <input type="submit" value="Send" className="button" />
           <span>{done && 'Thanks for Contacting me'}</span>
           <div

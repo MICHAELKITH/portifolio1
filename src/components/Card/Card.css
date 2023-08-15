@@ -32,6 +32,7 @@
   padding: 10px;
   font-size: 16px;
   color: #5290fd;
+  font-family: var(--color-family);
 }
 
 .c-button:hover {

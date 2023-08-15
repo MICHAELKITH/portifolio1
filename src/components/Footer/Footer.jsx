@@ -6,7 +6,7 @@ import {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <a href="https://github.com/MICHAELKITH">
         <button type="button" className="footer-logo" aria-label="Go to Dev Mike's website">Dev Mike</button>
       </a>

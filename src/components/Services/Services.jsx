@@ -24,25 +24,17 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? 'white' : '' }}>What I Offer</span>
-        <span>Skills</span>
+        <span style={{ color: darkMode ? 'white' : '' }}>Services I Provide</span>
+        <span>Expertise</span>
         <spane>
           <strong>
-            {' '}
-            JavaScript,React, Postgress and Ruby on Rails
+            <ul>
+              <li>Creating responsive websites</li>
+              <li>Incorporating payment gateways</li>
+              <li>Technology Stack: JavaScript, React, Ruby on Rails,  PostgreSQL</li>
+              <li>Executing user authentication</li>
+            </ul>
           </strong>
-          <br />
-          Based in Nairobi, Kenya, I am a Full Stack Developer with expertise in JavaScript,
-          Ruby on Rails React, and Redux.
-          {' '}
-          <br />
-          I have a strong interest in Full Stack Development and enjoy
-          hiking and staying updated with the latest technological developments
-          {' '}
-          <br />
-          {' '}
-          in my leisure time.
-
         </spane>
         <a href={Resume} download>
           <button type="button" className="button s-button">Download CV</button>

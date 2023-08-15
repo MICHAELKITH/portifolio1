@@ -1,11 +1,8 @@
 /* Footer.css */
 .footer {
   background: var(--blue-card);
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 7rem;
-  border-radius: 10px;
+  font-family: var(--color-family);
+  margin-bottom: 4rem;
 }
 
 footer a {
@@ -23,7 +20,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--color-white);
+  color: black;
 }
 
 .footer-logo {

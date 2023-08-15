@@ -20,20 +20,20 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? 'white' : '' }}>
-            As Freelancer!
+            Working as a freelancer!
           </span>
-          <span>Brands & Clients</span>
+          <span>Partnerships with brands and clients.</span>
           <spane>
-            <strong>
-              I have managed several projects online for different clients,
-              including:
-            </strong>
+            <strong>Skills:</strong>
+            <ul>
+              <li>Web Development (HTML, CSS, JavaScript)</li>
+              <li>Database Management ( PostgreSQL)</li>
+              <li>Frontend Frameworks (React)</li>
+              <li>Backend (Ruby on Rails)</li>
+              <li>Project Management</li>
+              <li>Mentoring and Training</li>
+            </ul>
             <br />
-            Web development
-            <br />
-            Mentoring
-            <br />
-            Database Application
 
           </spane>
           <Link to="contact" smooth spy>

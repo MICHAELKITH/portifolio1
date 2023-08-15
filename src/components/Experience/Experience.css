@@ -5,6 +5,7 @@
   gap: 5rem;
   height: 30vh;
   margin-bottom: 8rem;
+  font-family: var(--color-family);
 
   /* darkmode */
   color: var(--black);

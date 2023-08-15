@@ -8,11 +8,16 @@
   padding-top: 3rem;
 }
 
+.awesome {
+  font-family: var(--color-family);
+}
+
 .c-right {
   display: flex;
   justify-content: center;
   position: relative;
   flex: 1;
+  font-family: var(--color-family);
 }
 
 .c-right > form {

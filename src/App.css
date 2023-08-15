@@ -18,6 +18,7 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+  --color-family: arial, helvetica, sans-serif;
 }
 
 .App {
