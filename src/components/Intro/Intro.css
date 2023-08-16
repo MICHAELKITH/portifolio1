@@ -147,6 +147,10 @@
   left: 56%;
 }
 
+.first {
+  color: rgb(0, 81, 255);
+}
+
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;

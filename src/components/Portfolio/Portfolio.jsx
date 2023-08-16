@@ -39,6 +39,25 @@ const Portfolio = () => {
       {/* eslint-disable-next-line */}
       <Swiper modules={[Pagination]} {...swiperParams}>
         <SwiperSlide>
+          <img src={Budget} alt="" />
+          <p className="desc">
+            <h1>Budget App</h1>
+            <hr />
+            <h2>Stack: Ruby On Rails, PostgresSQL</h2>
+            {/* eslint-disable-next-line */}
+            {'A budget management app built with Rails and Devise gem with a clean and user-friendly interface'}
+            <br />
+            <div className="btn-live">
+              <a href="https://mike-bpc1.onrender.com/groups/11">
+                <button className="btn-1" type="button">See Live</button>
+              </a>
+              <a href="https://github.com/MICHAELKITH/budget_app.git">
+                <button className="btn-2" type="button">See Source</button>
+              </a>
+            </div>
+          </p>
+        </SwiperSlide>
+        <SwiperSlide>
 
           <img src={Finance} alt="" />
           <p className="desc">
@@ -60,25 +79,7 @@ const Portfolio = () => {
             </div>
           </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Budget} alt="" />
-          <p className="desc">
-            <h1>Budget App</h1>
-            <hr />
-            <h2>Stack: Ruby On Rails</h2>
-            {/* eslint-disable-next-line */}
-            {'A budget management app built with Rails and Devise gem with a clean and user-friendly interface'}
-            <br />
-            <div className="btn-live">
-              <a href="https://mike-bpc1.onrender.com/groups/11">
-                <button className="btn-1" type="button">See Live</button>
-              </a>
-              <a href="https://github.com/MICHAELKITH/budget_app.git">
-                <button className="btn-2" type="button">See Source</button>
-              </a>
-            </div>
-          </p>
-        </SwiperSlide>
+
         <SwiperSlide>
           <img src={Sidebar} alt="" />
           <p className="desc">

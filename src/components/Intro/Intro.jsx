@@ -31,15 +31,24 @@ const Intro = () => {
           <span style={{ color: darkMode ? 'white' : '' }}>I Am</span>
           <span>Michael</span>
           <span className="intro-line">
-            Software engineer with a background in developing
+            <span className="first">Certified Software Developer</span>
+            {' '}
+            with a background in developing
             efficient software applications in a global market.
-            2+ years of industry experience, including mentoring 10+
-            junior developers to achieve concrete goals on a strict deadline.
-            Strong skills include Database management and PostgreSQL and Ruby.
+            2+ years of industry experience, including
+            {' '}
+            <span className="first">
+              mentoring 10+
+              junior developers
+              {' '}
+            </span>
+            {' '}
+            to achieve concrete goals on a strict deadline.
+            Strong skills include JavaScript, React, Database management,  PostgreSQL and Ruby.
           </span>
         </div>
-        <Link to="contact" smooth spy>
-          <button type="button" className="button i-button">Hire me</button>
+        <Link to="portfolio" smooth spy>
+          <button type="button" className="button i-button">Projects</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">

@@ -26,7 +26,7 @@ const Works = () => {
           <spane>
             <strong>Skills:</strong>
             <ol>
-              <li>Web Development (HTML, CSS, JavaScript)</li>
+              <li>Web Development (HTML, CSS, JavaScript,React)</li>
               <li>Database Management ( PostgreSQL)</li>
               <li>Frontend Frameworks (React)</li>
               <li>Backend (Ruby on Rails)</li>

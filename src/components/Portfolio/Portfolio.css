@@ -60,7 +60,8 @@
 
   /* background-color: var(--orange); */
 }
-.desc > h1{
+
+.desc > h1 {
   font-weight: bolder;
 }
 
