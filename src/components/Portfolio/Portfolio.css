@@ -53,3 +53,123 @@
 .portfolio a:hover {
   color: blue;
 }
+
+.desc {
+  width: fit-content;
+  padding-left: 2rem;
+
+  /* background-color: var(--orange); */
+}
+
+.btn-live {
+  margin-top: 1rem;
+}
+
+.btn-live .btn-1 {
+  margin-right: 16px;
+  background-color: var(--orange);
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.btn-live .btn-2 {
+  background-color: var(--orange);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn-live button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.btn-live .btn-1:hover,
+.btn-live a:hover button {
+  transform: scale(1.05);
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio span:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+
+  .portfolio span:nth-of-type(2) {
+    font-size: 2rem;
+  }
+
+  .portfolio-slider img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 1rem;
+  }
+
+  .portfolio-slider .swiper-slide {
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn-live {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 760px) {
+  .portfolio {
+    padding: 0;
+  }
+
+  .desc {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .portfolio-slider img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .portfolio-slider .swiper-slide {
+    width: 100%;
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1024px) {
+  .portfolio {
+    height: 50vh;
+  }
+
+  .portfolio span:nth-of-type(1) {
+    font-size: 2rem;
+  }
+
+  .portfolio span:nth-of-type(2) {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-slider img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .portfolio-slider .swiper-slide {
+    width: 25rem;
+  }
+}

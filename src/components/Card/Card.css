@@ -1,3 +1,5 @@
+/* Original styles */
+
 .card {
   width: 10rem;
   height: 13rem;
@@ -40,10 +42,51 @@
   cursor: pointer;
 }
 
-/* cards */
+/* Media queries */
 
 @media screen and (max-width: 480px) {
   .card {
     width: auto;
+  }
+}
+
+/* Add more media queries for other screen sizes */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .card {
+    width: 8rem; /* Adjust the width for medium-sized screens */
+    height: 10rem; /* Adjust the height for medium-sized screens */
+    padding: 0 20px 1.5rem 20px; /* Adjust padding for medium-sized screens */
+  }
+
+  .card span:nth-of-type(2) {
+    font-size: 14px; /* Adjust font size for medium-sized screens */
+  }
+
+  .card > img {
+    transform: scale(0.5); /* Adjust image scale for medium-sized screens */
+  }
+
+  .c-button {
+    font-size: 14px; /* Adjust font size for medium-sized screens */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .card {
+    width: 12rem; /* Adjust the width for larger screens */
+    height: 15rem; /* Adjust the height for larger screens */
+    padding: 0 30px 2rem 30px; /* Adjust padding for larger screens */
+  }
+
+  .card span:nth-of-type(2) {
+    font-size: 18px; /* Adjust font size for larger screens */
+  }
+
+  .card > img {
+    transform: scale(0.7); /* Adjust image scale for larger screens */
+  }
+
+  .c-button {
+    font-size: 18px; /* Adjust font size for larger screens */
   }
 }

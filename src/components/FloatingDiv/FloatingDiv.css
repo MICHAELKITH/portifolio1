@@ -20,3 +20,39 @@
   /* yahan ye color add kia hy bad mein dark mode k waqt */
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .floating-div {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Adjust alignment for vertical stacking */
+  }
+
+  .floating-div img {
+    max-width: 80px; /* Adjust image size for smaller screens */
+    margin-bottom: 1rem; /* Add spacing between image and text */
+  }
+
+  .floating-div span {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .floating-div img {
+    max-width: 60px; /* Further adjust image size for small screens */
+  }
+
+  .floating-div span {
+    font-size: 12px; /* Further adjust font size for small screens */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .floating-div img {
+    max-width: 100px; /* Adjust image size for medium screens */
+  }
+
+  .floating-div span {
+    font-size: 16px; /* Revert font size back to default for medium screens */
+  }
+}

@@ -20,9 +20,9 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? 'white' : '' }}>
-            Working as a freelancer!
+            Technical
           </span>
-          <span>Partnerships with brands and clients.</span>
+          <span>Skills.</span>
           <spane>
             <strong>Skills:</strong>
             <ol>

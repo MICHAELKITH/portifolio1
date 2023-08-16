@@ -150,3 +150,30 @@
     left: 8rem !important;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .works {
+    height: 70vh;
+    padding: 0;
+    gap: 3rem;
+  }
+
+  .w-left {
+    width: 50%;
+  }
+
+  .w-right {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .works {
+    padding: 0 2rem;
+  }
+
+  .awesome span:nth-child(1),
+  .awesome span:nth-child(2) {
+    font-size: 2rem;
+  }
+}

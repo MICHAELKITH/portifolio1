@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
-import boy from '../../img/github.jpg';
+import boy from '../../img/mike.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import thumbup from '../../img/thumbup.png';
 import crown from '../../img/crown.png';
@@ -31,8 +31,11 @@ const Intro = () => {
           <span style={{ color: darkMode ? 'white' : '' }}>I Am</span>
           <span>Michael</span>
           <span className="intro-line">
-            A highly experienced full-stack developer proficient in web design and development,
-            capable of producing high-quality work
+            Software engineer with a background in developing
+            efficient software applications in a global market.
+            2+ years of industry experience, including mentoring 10+
+            junior developers to achieve concrete goals on a strict deadline.
+            Strong skills include Database management and PostgreSQL and , Ruby
           </span>
         </div>
         <Link to="contact" smooth spy>
@@ -55,7 +58,9 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <div className="profile-container">
+          <img className="profile" src={boy} alt="" />
+        </div>
         {/* animation */}
         <motion.img
           initial={{ left: '-36%' }}
@@ -84,17 +89,6 @@ const Intro = () => {
           <FloatinDiv img={thumbup} text1="Database" text2="Application" />
         </motion.div>
 
-        <div className="blur" style={{ background: 'rgb(238 210 255)' }} />
-        <div
-          className="blur"
-          style={{
-            background: '#C1F5FF',
-            top: '17rem',
-            width: '21rem',
-            height: '11rem',
-            left: '-9rem',
-          }}
-        />
       </div>
     </div>
   );
