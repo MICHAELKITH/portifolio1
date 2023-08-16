@@ -60,6 +60,9 @@
 
   /* background-color: var(--orange); */
 }
+.desc > h1{
+  font-weight: bolder;
+}
 
 .btn-live {
   margin-top: 1rem;
