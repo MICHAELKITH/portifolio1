@@ -35,7 +35,7 @@ const Intro = () => {
             efficient software applications in a global market.
             2+ years of industry experience, including mentoring 10+
             junior developers to achieve concrete goals on a strict deadline.
-            Strong skills include Database management and PostgreSQL and , Ruby
+            Strong skills include Database management and PostgreSQL and Ruby.
           </span>
         </div>
         <Link to="contact" smooth spy>

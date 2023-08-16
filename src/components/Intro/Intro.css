@@ -44,17 +44,12 @@
   padding-left: 10rem;
   margin-top: 10rem;
   filter: blur(0);
+  image-rendering: auto;
 }
 
 .profile:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
-}
-
-.intro-line {
-  font-family: var(--color-family);
-  font-size: 12px;
-  font-weight: 400;
 }
 
 .i-name > :nth-child(1) {
@@ -69,12 +64,13 @@
   font-size: 3rem;
 }
 
-.i-name > :nth-child(3) {
+/* .i-name > :nth-child(3) {
   font-weight: 100;
+  font-family: var(--color-family);
   font-size: 14px;
   color: var(--gray);
   margin-top: 10px;
-}
+} */
 
 .i-button {
   width: 6rem;
