@@ -6,7 +6,7 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import { themeContext } from '../../Context';
-import Resume from './resume.pdf';
+import Resume from './MichaelKithinji.pdf';
 
 const Services = () => {
   // context
