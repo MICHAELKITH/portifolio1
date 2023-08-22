@@ -1,0 +1,17 @@
+.sidenav-overlay {
+  background-color: inherit;
+  z-index: -1;
+}
+
+#my-profile {
+  width: 100%;
+  aspect-ratio: 2/3;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 150px;
+  border-top-right-radius: 17px;
+}
+
+.link.mobile {
+  background-color: lightskyblue;
+}
