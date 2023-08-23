@@ -22,7 +22,7 @@ const projs = [
     image: './images/finance app.png',
     buttons: [
       [
-        'https://github.com/MICHAELKITH/Finance_app',
+        'https://test-branch--deluxe-puffpuff-cd2d13.netlify.app/',
         'https://github.com/MICHAELKITH/Finance_app.git',
       ],
       [
@@ -43,7 +43,7 @@ const projs = [
       ],
       [
         // './desktop-images/Live_btn.png',
-        './desktop-images/Source_Btn.png',
+        './desktop-images/Live_btn.png',
         './desktop-images/Source_Btn.png',
       ],
     ],

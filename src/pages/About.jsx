@@ -19,7 +19,10 @@ const About = () => (
           Myself
         </h1>
         <p className="body-text">
-          Hi, I am Michael Kithinji. A Full-stack Developer with a combined experience of 1+ years with HTML, CSS, JavaScript, React, Ruby on Rails and remote web development. Apart from Full-stack development, I am also a lab instructor at the university of FAST-NUCES.
+        I hold a certification as a full-stack developer from Microverse and possess a Bachelor's degree in Mathematics. 
+        I also have practical experience in UX and Customer Success.
+        I have a strong affinity for problem-solving and excel at debugging. 
+        I'm enthusiastic about acquiring new skills and staying up-to-date with emerging technologies.
         </p>
         <a href="/" className="connect">
           Let&apos;s connect

@@ -18,7 +18,7 @@ function Footer() {
                 smooth
                 offset={-70}
                 duration={500}
-                to="Navbar"
+                to="../Navbar"
                 className="text-md"
               >
                 Home
@@ -31,7 +31,7 @@ function Footer() {
                 smooth
                 offset={-70}
                 duration={500}
-                to="Project"
+                to="./Project"
                 className="text-md"
               >
                 Portfolio
