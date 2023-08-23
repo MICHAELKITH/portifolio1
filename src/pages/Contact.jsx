@@ -22,7 +22,7 @@ const Contact = () => {
       </header>
       <section className="contact-me" id="contact">
         <div className="content">
-          <h1>Contact me</h1>
+          <h1> Get in Touch</h1>
           <p className="contact-text">
             If you have an application you are interested in developing,
             a feature that you need built,

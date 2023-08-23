@@ -9,7 +9,14 @@ function Footer() {
         <div>
           <img src="./images/logo.png" alt="Logoipsum" />
         </div>
-        <div className="footer--items">
+        <p className="footer--content">
+          {' '}
+          ©
+          {new Date().getFullYear()}
+          {' '}
+          All rights reserved
+        </p>
+        {/* <div className="footer--items">
           <ul>
             <li>
               <Link
@@ -18,7 +25,7 @@ function Footer() {
                 smooth
                 offset={-70}
                 duration={500}
-                to="../Navbar"
+                to="./Home"
                 className="text-md"
               >
                 Home
@@ -63,8 +70,8 @@ function Footer() {
                 Contact
               </Link>
             </li>
-          </ul>
-        </div>
+          </ul> */}
+        {/* </div> */}
         <div className="footer--social--icon">
           <ul>
             <li>
@@ -161,11 +168,7 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">
-          {' '}
-          ©
-          {new Date().getFullYear()}
-          {' '}
-          All rights reserved
+        Think twice, code once.
         </p>
         <div className="footer--social--icon">
           <ul>

@@ -30,8 +30,12 @@
 
 .footer--items ul > li > a {
   text-decoration: none;
+  /* display: none; */
 }
 
+.footer--items ul > li > a:hover{
+color: rgb(57, 208, 175);
+}
 .footer--social--icon > ul {
   list-style: none;
   display: flex;
@@ -40,8 +44,13 @@
   gap: 16px;
   flex-shrink: 0;
   text-decoration: none;
+  cursor: pointer;
 }
 
+.footer--social--icon a:hover{
+  background-color: rgb(215, 233, 233);
+  color: blue;
+}
 .divider {
   margin: 106px 0 42.67px;
   height: 1.333px;
