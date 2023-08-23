@@ -793,7 +793,7 @@ nav {
 
   .right-head::after {
     content: '';
-    border: 3px solid #d6dfd6;;
+    border: 3px solid #d6dfd6;
     width: 48%;
     position: absolute;
     height: calc(100% - 190px);

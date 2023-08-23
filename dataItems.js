@@ -1,6 +1,6 @@
 const projs = [
   {
-    title: 'To do ',
+    title: 'Budget App ',
     info: 'A budget management app built with Rails and Devise gem, with a clean and user-friendly interface designed with CSS and HTML. Users can create an account, log in, and manage their expenses and income. The app also features a dashboard displaying users current budget status, including charts and graphs that show the breakdown of their expense',
     tech: ['HTML', 'CSS', 'Rails', 'Ruby', 'postgresql', 'Materialize'],
     image: './images/bud1.png',

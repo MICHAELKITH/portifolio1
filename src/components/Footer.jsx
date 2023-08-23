@@ -168,7 +168,7 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">
-        Think twice, code once.
+          Think twice, code once.
         </p>
         <div className="footer--social--icon">
           <ul>

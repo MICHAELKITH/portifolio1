@@ -49,20 +49,24 @@ export default function WorkItem({ myProj }) {
           </ul>
           <ul>
             <li>
-              <a href={buttons[0][0]}
-               target="_blank"
-               rel="noopener noreferrer"
-               data-item="true"
-               className="item-btn">
+              <a
+                href={buttons[0][0]}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-item="true"
+                className="item-btn"
+              >
                 <img src={buttons[1][0]} alt="" />
               </a>
             </li>
             <li>
-              <a href={buttons[0][1]}
-               target="_blank"
-               rel="noopener noreferrer"
-               data-item="true"
-               className="item-btn">
+              <a
+                href={buttons[0][1]}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-item="true"
+                className="item-btn"
+              >
                 <img src={buttons[1][1]} alt="" />
               </a>
             </li>

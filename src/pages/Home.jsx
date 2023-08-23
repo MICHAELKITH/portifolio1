@@ -70,9 +70,13 @@ const Home = () => {
           <h2>Hello!</h2>
           <h4>I&apos;m Michael Kithinji </h4>
           <p className="body-text">
-          Certified Software Developer with a background in developing efficient software applications in a global market. <br/>
-          2+ years of industry experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline. <br/>
-           Strong skills include JavaScript, React, Database management, PostgreSQL and Ruby.
+            Certified Software Developer with a background in developing efficient software applications in a global market.
+            {' '}
+            <br />
+            2+ years of industry experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline.
+            {' '}
+            <br />
+            Strong skills include JavaScript, React, Database management, PostgreSQL and Ruby.
           </p>
           <a className="contact-btn" href="#contact">Contact Me</a>
           <p href="/" className="connect">
@@ -98,10 +102,10 @@ const Home = () => {
             Myself
           </h1>
           <p className="body-text">
-          I hold a certification as a full-stack developer from Microverse and possess a Bachelor's degree in Mathematics. 
-        I also have practical experience in UX and Customer Success.
-        I have a strong affinity for problem-solving and excel at debugging. 
-        I'm enthusiastic about acquiring new skills and staying up-to-date with emerging technologies.
+            I hold a certification as a full-stack developer from Microverse and possess a Bachelor's degree in Mathematics.
+            I also have practical experience in UX and Customer Success.
+            I have a strong affinity for problem-solving and excel at debugging.
+            I'm enthusiastic about acquiring new skills and staying up-to-date with emerging technologies.
           </p>
           <a href="/" className="connect">
             Let&apos;s connect
