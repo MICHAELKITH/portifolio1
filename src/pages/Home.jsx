@@ -111,7 +111,7 @@ const Home = () => {
             Let&apos;s connect
           </a>
           {generateLinks()}
-          <a className="resume-button" href="./docs/Michael Kithinji.pdf" download="Michael Kithinji Resume">Download CV</a>
+          <a className="resume-button" href="./docs/Michael_Kithinji_Resume.pdf" download="Michael Kithinji Resume">Download CV</a>
         </div>
         <div className="skills">
           <h2>Skills & Tools</h2>

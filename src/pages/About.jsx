@@ -63,7 +63,7 @@ const About = () => (
             </a>
           </li>
         </ul>
-        <a className="resume-button" href="./docs/Michael Kithinji.pdf" download="Michael Kithinji Resume">Download CV</a>
+        <a className="resume-button" href="./docs/Michael_Kithinji_Resume.pdf" download="Michael Kithinji Resume">Download CV</a>
       </div>
       <div className="skills">
         <h2>Skills</h2>
