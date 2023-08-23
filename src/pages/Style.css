@@ -7,7 +7,7 @@
   --gradY: 50%;
   --c1: rgb(255, 255, 255, 1);
   --c2: rgba(58, 59, 57, 0.5);
-  --back-color: #20212a;
+  --back-color: #242d2d;
 
   width: 100%;
 }
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  background: -webkit-linear-gradient(left, #00f298, #07f7f7);
+  background: -webkit-linear-gradient(left, #bfc7c4, #07f7f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
