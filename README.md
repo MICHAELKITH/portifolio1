@@ -59,7 +59,7 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder: [here](https://github.com/MICHAELKITH/microverse-mike-portifolio.git)
 
-Link to this website[here](https://michaelkith.github.io/portifolio1/)
+Link to this website[here](https://michaelportfolio1.netlify.app/)
 
 
 
