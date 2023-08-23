@@ -15,12 +15,14 @@
     "style": "stylelint \"**/*.{css,scss}\" --fix"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.14.3",
     "@reduxjs/toolkit": "^1.9.3",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^10.12.18",
+    "materialize-css": "^1.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
