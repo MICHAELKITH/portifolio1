@@ -6,6 +6,25 @@
   background: #405159;
 }
 
+.navbar--content {
+  cursor: pointer;
+  background-size: cover;
+  width: 10%;
+}
+
+.navbar--content > svg {
+  background-color: rgb(167, 234, 212);
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.navbar--content > svg:hover {
+  background-color: rgb(17, 180, 28);
+}
+
 .footer--link--container {
   display: flex;
   justify-content: space-between;
@@ -28,8 +47,8 @@
 }
 
 .footer--social--icon a:hover {
-  background-color: rgb(215, 233, 233);
-  color: blue;
+  background-size: cover;
+  color: rgb(17, 180, 28);
 }
 
 .footer--items ul > li > a:hover {
