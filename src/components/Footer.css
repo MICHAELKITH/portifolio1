@@ -22,7 +22,17 @@
 }
 
 .navbar--content > svg:hover {
-  background-color: rgb(17, 180, 28);
+  background-color: rgb(226, 241, 227);
+}
+.navbar--content > svg:hover:nth-child(1) {
+  background-color: rgb(47, 42, 204);
+}
+.footer--social--icon{
+ border-radius: 0.5rem;
+ -webkit-border-radius: 0.5rem;
+ -moz-border-radius: 0.5rem;
+ -ms-border-radius: 0.5rem;
+ -o-border-radius: 0.5rem;
 }
 
 .footer--link--container {
@@ -46,9 +56,9 @@
   text-decoration: none;
 }
 
-.footer--social--icon a:hover {
+.footer--social--icon a:hover:nth-child(1) {
   background-size: cover;
-  color: rgb(204, 218, 205);
+  color: rgb(30, 168, 40);
 }
 
 .footer--items ul > li > a:hover {
