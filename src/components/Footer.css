@@ -21,12 +21,12 @@
   -o-border-radius: 10%;
 } */
 
-.navbar--content > svg:hover {
+/* .navbar--content > svg:hover {
   background-color: rgb(226, 241, 227);
 }
 .navbar--content > svg:hover:nth-child(1) {
   background-color: rgb(47, 42, 204);
-}
+} */
 .footer--social--icon{
  border-radius: 0.5rem;
  -webkit-border-radius: 0.5rem;
