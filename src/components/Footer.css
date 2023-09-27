@@ -12,14 +12,14 @@
   width: 10%;
 }
 
-.navbar--content > svg {
+/* .navbar--content > svg {
   background-color: rgb(167, 234, 212);
   border-radius: 10%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
-}
+} */
 
 .navbar--content > svg:hover {
   background-color: rgb(226, 241, 227);
