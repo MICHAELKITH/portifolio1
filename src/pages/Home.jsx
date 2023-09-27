@@ -73,10 +73,10 @@ const Home = () => {
             Certified Software Developer with a background in developing efficient software applications in a global market.
             {' '}
             <br />
-            2+ years of industry experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline.
+            3+ years of industry experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline.
             {' '}
             <br />
-            Strong skills include JavaScript, React, Database management, PostgreSQL and Ruby.
+            Strong skills include JavaScript, React, Database Management, PostgreSQL and Ruby On Rails.
           </p>
           <a className="contact-btn" href="#contact">Contact Me</a>
           <p href="/" className="connect">
