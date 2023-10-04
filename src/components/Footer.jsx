@@ -89,7 +89,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://wa.me/19782772189?text=Hello%20I%20want%20to%20know%20about%20your%20services.%20Can%20you%20help%20me?%20"
+                href="https://wa.me/254714707147?text=Hello%20I%20want%20to%20know%20about%20your%20services.%20Can%20you%20help%20me?%20"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
