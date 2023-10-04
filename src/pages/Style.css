@@ -401,6 +401,12 @@ h1 {
   color: black;
   transition: background 2s;
 }
+.resume-button>svg{
+ 
+  margin-left: 0.1rem;
+  color: rgb(192, 55, 55);
+  font-size: 1rem;
+}
 
 .about {
   justify-content: space-between;
