@@ -152,7 +152,9 @@ p {
 .link.active {
   border-bottom: 3px solid rgb(174, 134, 49);
 }
-
+.SKILLS{
+  color: goldenrod;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
