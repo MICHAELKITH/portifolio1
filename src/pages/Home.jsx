@@ -77,7 +77,7 @@ const Home = () => {
             {' '}
             <br />
             Strong Skills:
-            <strong className='SKILLS'>
+            <strong className="SKILLS">
               JavaScript, React, Database Management, Machine Learning, PostgreSQL and Ruby On Rails.
             </strong>
           </p>
@@ -105,10 +105,10 @@ const Home = () => {
             Myself
           </h1>
           <p className="body-text">
-          I am a certified full-stack developer, having successfully completed the program at Microverse. 
-          In addition to my development skills, I have practical experience in UX (User Experience) and Customer Success. 
-          I have a natural aptitude for problem-solving and excel at debugging. 
-          I'm highly motivated to acquire new skills and keep myself updated with emerging technologies in the field.
+            I am a certified full-stack developer, having successfully completed the program at Microverse.
+            In addition to my development skills, I have practical experience in UX (User Experience) and Customer Success.
+            I have a natural aptitude for problem-solving and excel at debugging.
+            I'm highly motivated to acquire new skills and keep myself updated with emerging technologies in the field.
           </p>
           <a href="/" className="connect">
             Let&apos;s connect
