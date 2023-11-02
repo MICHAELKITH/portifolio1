@@ -70,15 +70,18 @@ const Home = () => {
           <h2>Hello!</h2>
           <h4>I&apos;m Michael Kithinji </h4>
           <p className="body-text">
-            Certified Software Developer with a background in developing efficient and responsive Websites and Mobile Apps.
+            <h1>
+              Software Developer at Divine Design Studio
+            </h1>
+
             {' '}
             <br />
-            I have 3+ years of industry experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline.
+
             {' '}
             <br />
             Strong Skills:
             <strong className="SKILLS">
-              JavaScript, React, Database Management, Machine Learning, PostgreSQL and Ruby On Rails.
+              JavaScript, React.js, React Native, Database Management, Machine Learning, PostgreSQL and Ruby On Rails.
             </strong>
           </p>
           <a className="contact-btn" href="#contact">Contact Me</a>
