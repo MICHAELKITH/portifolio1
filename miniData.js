@@ -22,7 +22,7 @@ const projs = [
     image: './images/divine.png',
     buttons: [
       [
-        'https://www.facebook.com/groups/269972252092757/',
+        './',
         '',
       ],
       [

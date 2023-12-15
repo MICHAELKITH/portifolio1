@@ -81,7 +81,7 @@ const Home = () => {
             <br />
             Strong Skills:
             <strong className="SKILLS">
-              JavaScript, React.js, React Native, Database Management, Machine Learning, PostgreSQL and Ruby On Rails.
+              JavaScript, React.js, React Native, Database Management, Machine Learning, PostgreSQL and Node.js.
             </strong>
           </p>
           <a className="contact-btn" href="#contact">Contact Me</a>

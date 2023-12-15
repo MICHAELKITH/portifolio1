@@ -1,29 +1,29 @@
 /* eslint-disable max-len */
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
 
-import './Style.css';
-import Skills from '../../skills';
+import "./Style.css";
+import Skills from "../../skills";
 
 const About = () => (
   <div className="wrapper">
     <header>
       <Navbar />
     </header>
-    <section className="about" id="about-myself" style={{ marginTop: '2%' }}>
+    <section className="about" id="about-myself" style={{ marginTop: "2%" }}>
       <div className="personal-info">
         <h1>
-          About
-          {' '}
-          <br />
+          About <br />
           Myself
         </h1>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className="body-text">
-          I hold a certification as a full-stack developer from Microverse and possess a Bachelor's degree in Mathematics.
-          I also have practical experience in UX and Customer Success.
-          I have a strong affinity for problem-solving and excel at debugging.
-          I'm enthusiastic about acquiring new skills and staying up-to-date with emerging technologies.
+          I am a certified full-stack developer, having successfully completed
+          the program at Microverse. In addition to my development skills, I
+          have practical experience in UX (User Experience) and Customer
+          Success. I have a natural aptitude for problem-solving and excel at
+          debugging. I'm highly motivated to acquire new skills and keep myself
+          updated with emerging technologies in the field.
         </p>
         <a href="/" className="connect">
           Let&apos;s connect
@@ -63,18 +63,20 @@ const About = () => (
             </a>
           </li>
         </ul>
-        <a className="resume-button" href="./docs/Michael_Kithinji_Resume.pdf" download="Michael Kithinji Resume">Download CV</a>
+        <a
+          className="resume-button"
+          href="./docs/Michael_Kithinji_Resume.pdf"
+          download="Michael Kithinji Resume"
+        >
+          Download CV
+        </a>
       </div>
       <div className="skills">
         <h2>Skills</h2>
         <ul>
-          {
-              Skills.map((skill) => (
-                <li key={skill}>
-                  {skill}
-                </li>
-              ))
-            }
+          {Skills.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
         </ul>
       </div>
     </section>
