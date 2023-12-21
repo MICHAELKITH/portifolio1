@@ -68,7 +68,7 @@ const Home = () => {
       <section className="headline">
         <div className="left-head">
           <h2>Hello!</h2>
-          <h4>Michael Kithinji  has over 2+ years of experience in web, mobile, and software
+          <h4>Michael Kithinji  has over 3+ years of experience in web, mobile, and software
             development</h4>
           <p className="body-text">
             Strong Skills:
