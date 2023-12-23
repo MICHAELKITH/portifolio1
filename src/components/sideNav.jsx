@@ -28,7 +28,7 @@ const SideNav = () => {
         <li><a className="sidenav-close" href="#!" onClick={handleNav}><i className="medium right material-icons"><img src="../images/close.png" alt="LinkedIn" /></i></a></li>
         <li>
           <div className="user-view">
-            <p className="black-text name">Michael Kithinji</p>
+            <p className="black-text name" ><a href="https://www.buymeacoffee.com/mikecode">By me a coffee</a></p>
             <a href="#email"><span className="blue-text email">mikecode945@gmail.com</span></a>
           </div>
         </li>

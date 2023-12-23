@@ -18,9 +18,9 @@ export default function Navbar() {
       <nav className="navbar">
         <NavLink
           className={`${(link) => (link.isActive ? 'link active' : 'link')} logo`}
-          to="/"
+          to="https://www.buymeacoffee.com/mikecode"
         >
-          Michael
+          Buy me a coffee
         </NavLink>
         <ul className="page-flow">
           {
