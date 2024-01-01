@@ -9,6 +9,7 @@ const skills = [
   'Node.js',
   'Express.js',
   'MongoDB',
+  'SPSS',
   'postgreSQL',
   'Netlify',
   'Bootstrap',
