@@ -6,7 +6,7 @@ const projs = [
     image: './images/bud1.png',
     buttons: [
       [
-        'https://mike-bpc1.onrender.com/users/sign_up',
+        'https://mike-bpc1.onrender.com/',
         'https://github.com/MICHAELKITH/budget_app.git',
       ],
       [
