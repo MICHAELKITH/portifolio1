@@ -27,7 +27,7 @@ const projs = [
         '',
       ],
       [
-        './desktop-images/Live_btn.png'
+        './desktop-images/Live_btn.png',
       ],
     ],
   },
