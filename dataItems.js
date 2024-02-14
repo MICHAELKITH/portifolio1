@@ -15,6 +15,22 @@ const projs = [
       ],
     ],
   },
+
+  {
+    title: 'Figma ',
+    info: 'This My first Figma design UI/UX.',
+    tech: ['Figma'],
+    image: './images/figmawork.png',
+    buttons: [
+      [
+        'https://www.figma.com/file/s6vIDzwbMctkk1l6BmfRdu/Untitled?type=design&node-id=0-1&mode=design&t=3EjNYlCEHmU5ksKS-0',
+        '',
+      ],
+      [
+        './desktop-images/Live_btn.png'
+      ],
+    ],
+  },
   {
     title: 'To do ',
     info: 'Easy, free, and simple-to-use HTML, CSS, and JavaScript project that may be used to schedule your daily activities.',
@@ -48,18 +64,17 @@ const projs = [
     ],
   },
   {
-    title: 'BootCamp Website',
-    info: 'This is a JavaScript bootcamp capstone project. This project was made with JavaScript, HTML, and CSS. The project is responsive to mobile devices.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    image: './images/camp.png',
+    title: 'Weird Stories',
+    info: 'Weird Stories is a social media where people will connect, share and post their stories',
+    tech: ['Node.js', 'React.js', 'SCSS', 'Postman', 'PostgresSQL'],
+    image: './images/weird.png',
     buttons: [
       [
-        'https://michaelkith.github.io/Capstone-1-Project/',
-        'https://github.com/MICHAELKITH/Capstone-1-Project.git',
+        'https://www.youtube.com/watch?v=7yKUWIsmzU0&t=194s',
+        'https://github.com/MICHAELKITH/weird_stories',
       ],
       [
-        // './desktop-images/Live_btn.png',
-        './desktop-images/Source_Btn.png',
+        './desktop-images/Live_btn.png',
         './desktop-images/Source_Btn.png',
       ],
     ],

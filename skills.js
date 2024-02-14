@@ -19,6 +19,7 @@ const skills = [
   'Material UI',
   'Remote Development',
   'Pair Programming',
+  'Figma',
 ];
 
 export default skills;
