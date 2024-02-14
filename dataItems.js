@@ -23,7 +23,7 @@ const projs = [
     image: './images/figmawork.png',
     buttons: [
       [
-        'https://www.figma.com/file/s6vIDzwbMctkk1l6BmfRdu/Untitled?type=design&node-id=0-1&mode=design&t=3EjNYlCEHmU5ksKS-0',
+        'https://www.figma.com/proto/s6vIDzwbMctkk1l6BmfRdu/Untitled?node-id=1-2&scaling=min-zoom&page-id=0%3A1',
         '',
       ],
       [
