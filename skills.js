@@ -22,4 +22,6 @@ const skills = [
   'Figma',
 ];
 
+skills.sort();
+
 export default skills;

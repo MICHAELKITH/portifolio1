@@ -66,7 +66,7 @@ const projs = [
   {
     title: 'Weird Stories',
     info: 'Weird Stories is a social media where people will connect, share and post their stories',
-    tech: ['Node.js', 'React.js', 'SCSS', 'Postman', 'PostgresSQL'],
+    tech: ['Node.js', 'React.js', 'SCSS', 'Postman', 'PostgreSQL'],
     image: './images/weird.png',
     buttons: [
       [
