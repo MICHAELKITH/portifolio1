@@ -68,8 +68,12 @@ const Home = () => {
       <section className="headline">
         <div className="left-head">
           <h2>Hello!</h2>
-          <h4>Michael Kithinji  has over 3+ years of experience in web, mobile, and software
-            development</h4>
+          <h4>
+            Experienced software engineer with 4+ years in diverse environments:
+            startups, enterprises, and agencies. Proficient in remote and
+            in-office settings, prioritizing project ownership and speedy
+            delivery. Skilled in web, mobile, and API development.
+          </h4>
           <p className="body-text">
             Strong Skills:
             <strong className="SKILLS">
