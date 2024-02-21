@@ -20,6 +20,7 @@ const skills = [
   'Remote Development',
   'Pair Programming',
   'Figma',
+  'Flutter',
 ];
 
 skills.sort();
