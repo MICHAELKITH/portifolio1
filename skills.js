@@ -21,6 +21,8 @@ const skills = [
   'Pair Programming',
   'Figma',
   'Next14',
+  'Convex',
+  'Clerk Auth',
 ];
 
 skills.sort();
