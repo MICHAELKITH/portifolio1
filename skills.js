@@ -20,7 +20,6 @@ const skills = [
   'Remote Development',
   'Pair Programming',
   'Figma',
-  'Flutter',
   'Next14',
 ];
 
