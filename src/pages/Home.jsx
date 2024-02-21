@@ -77,8 +77,7 @@ const Home = () => {
           <p className="body-text">
             Strong Skills:
             <strong className="SKILLS">
-              JavaScript, React.js, Next14, Node.js, Flutter, React Native, Machine
-              Learning, PostgreSQL and postman.
+              JavaScript, React.js, Next14, Node.js, Flutter, React Native, Ruby On Rails, PostgreSQL and Postman(APIs).
             </strong>
           </p>
           <a className="contact-btn" href="#contact">
