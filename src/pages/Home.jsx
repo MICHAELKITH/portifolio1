@@ -69,7 +69,7 @@ const Home = () => {
         <div className="left-head">
           <h2>Hello!</h2>
           <h4>
-            Experienced software engineer with 4+ years in diverse environments:
+            I'm experienced software engineer with 4+ years in diverse environments:
             startups, enterprises, and agencies. Proficient in remote and
             in-office settings, prioritizing project ownership and speedy
             delivery. Skilled in web, mobile, and API development.
