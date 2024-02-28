@@ -1,16 +1,19 @@
 /* eslint-disable max-len */
-import React from "react";
-import "./Style.css";
+import React, { useRef, useEffect, useState } from 'react';
+import './Style.css';
 
-import Navbar from "../components/Navbar";
-import Works from "../components/works";
-import Footer from "../components/Footer";
-import Skills from "../../skills";
+import Navbar from '../components/Navbar';
+import Works from '../components/works';
+import Footer from '../components/Footer';
+// import Avatar from '../components/Avatar';
+import Skills from '../../skills';
 
 const Home = () => {
-  const errDisplay = document.querySelector(".message");
-  const form = document.querySelector("#myform");
-  const html = document.querySelector("html");
+  const [visible, setVisible] = useState(false);
+  const ref = useRef(null);
+  const errDisplay = document.querySelector('.message');
+  const form = document.querySelector('#myform');
+  const html = document.querySelector('html');
 
   const generateLinks = () => (
     <ul className="socials">
@@ -52,7 +55,7 @@ const Home = () => {
 
   html.onclick = () => {
     if (errDisplay) {
-      errDisplay.classList.remove("active");
+      errDisplay.classList.remove('active');
     }
   };
 
@@ -61,7 +64,7 @@ const Home = () => {
   };
 
   return (
-    <div className="wrapper">
+    <div className="wrapper" ref={ref}>
       <header>
         <Navbar />
       </header>
@@ -100,7 +103,9 @@ const Home = () => {
       <section className="about" id="about-myself">
         <div className="personal-info">
           <h1>
-            About <br />
+            About
+            {' '}
+            <br />
             Myself
           </h1>
           <p className="body-text">
@@ -183,6 +188,9 @@ const Home = () => {
         </div>
       </footer>
       <Footer />
+      {/* <Support visible={visible} /> */}
+      {/* <Avatar /> */}
+
     </div>
   );
 };

@@ -16,22 +16,6 @@ const projs = [
     ],
   },
   {
-    title: 'Divine Design Studio ',
-    info: 'We a creative design studio that brings together (5) disciplines - clothing, music, marketing, design, technology. We bring forth freelancers within these 5 disciplines and more who embrace spiritual entrepreneurship and Kingdom impact.',
-    tech: ['React.js', 'Node.js', 'MongoDB', 'Postman', 'Cloudinary'],
-    image: './images/divine.png',
-    buttons: [
-      [
-        './',
-        '',
-      ],
-      [
-        './desktop-images/Live_btn.png',
-        './desktop-images/Source_Btn.png',
-      ],
-    ],
-  },
-  {
     title: 'Finance App',
     info: '[Finance APP ] is a react app that displays a list of stocks and services; when a user clicks on a stock, the app displays a list of companies that can be filtered using the search bar; each firm has its own photo, description, and details; and the app is free to use.',
     tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],

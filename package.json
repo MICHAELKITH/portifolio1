@@ -30,7 +30,8 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.8.2",
     "react-scroll": "^1.8.9",
-    "reactjs-popup": "^2.0.5"
+    "reactjs-popup": "^2.0.5",
+    "saas": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
@@ -51,6 +52,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^6.0.0",
     "jsdom": "^21.1.0",
+    "sass": "^1.71.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",

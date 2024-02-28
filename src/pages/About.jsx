@@ -1,19 +1,21 @@
 /* eslint-disable max-len */
-import React from "react";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Navbar from '../components/Navbar';
 
-import "./Style.css";
-import Skills from "../../skills";
+import './Style.css';
+import Skills from '../../skills';
 
 const About = () => (
   <div className="wrapper">
     <header>
       <Navbar />
     </header>
-    <section className="about" id="about-myself" style={{ marginTop: "2%" }}>
+    <section className="about" id="about-myself" style={{ marginTop: '2%' }}>
       <div className="personal-info">
         <h1>
-          About <br />
+          About
+          {' '}
+          <br />
           Myself
         </h1>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
