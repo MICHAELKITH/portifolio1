@@ -80,7 +80,7 @@ const Home = () => {
           <p className="body-text">
             Strong Skills:
             <strong className="SKILLS">
-              JavaScript, Golang, Ruby On Rails, PostgreSQL and Postman(APIs).
+              JavaScript, Golang, Ruby On Rails, PostgreSQL and Postman.
             </strong>
           </p>
           <a className="contact-btn" href="#contact">
