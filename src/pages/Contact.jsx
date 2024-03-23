@@ -12,6 +12,7 @@ const Contact = () => {
     // For demonstration purposes, I'm simulating a successful submission with a timeout
     setTimeout(() => {
       setIsDone(true);
+      document.getElementById('myform').reset();
     }, 1000);
   };
 
