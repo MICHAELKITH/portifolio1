@@ -25,6 +25,7 @@ const skills = [
   'Clerk Auth',
   'goFiber',
   'Three.js',
+  'Tailwind CSS',
 ];
 
 skills.sort();
