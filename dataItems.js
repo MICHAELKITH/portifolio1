@@ -2,7 +2,7 @@ const projs = [
 
   {
     title: 'Figma ',
-    info: 'This My first Figma design UI/UX.',
+    info: 'Figma Design UI/UX.',
     tech: ['Figma'],
     image: './images/figmawork.png',
     buttons: [
