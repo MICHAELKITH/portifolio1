@@ -38,7 +38,7 @@ const projs = [
     image: './images/weird.png',
     buttons: [
       [
-        'https://www.youtube.com/watch?v=7yKUWIsmzU0&t=194s',
+        'https://github.com/MICHAELKITH/weird_stories',
         'https://github.com/MICHAELKITH/weird_stories',
       ],
       [
