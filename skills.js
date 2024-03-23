@@ -23,6 +23,8 @@ const skills = [
   'Next14',
   'Convex',
   'Clerk Auth',
+  'goFiber',
+  'Three.js',
 ];
 
 skills.sort();

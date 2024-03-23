@@ -1,31 +1,30 @@
 /* eslint-disable max-len */
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import Navbar from "../components/Navbar";
 
-import './Style.css';
-import Skills from '../../skills';
+import "./Style.css";
+import Skills from "../../skills";
 
 const About = () => (
   <div className="wrapper">
     <header>
       <Navbar />
     </header>
-    <section className="about" id="about-myself" style={{ marginTop: '2%' }}>
+    <section className="about" id="about-myself" style={{ marginTop: "2%" }}>
       <div className="personal-info">
         <h1>
-          About
-          {' '}
-          <br />
+          About <br />
           Myself
         </h1>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className="body-text">
-          I am a certified full-stack developer, having successfully completed
-          the program at Microverse. In addition to my development skills, I
-          have practical experience in UX (User Experience) and Customer
-          Success. I have a natural aptitude for problem-solving and excel at
-          debugging. I'm highly motivated to acquire new skills and keep myself
-          updated with emerging technologies in the field.
+          I'm an experienced software engineer who constantly seeks out
+          innovative solutions to everyday problems. In my four years in this
+          industry, I've honed my analytical thinking and collaboration skills,
+          and I love working with a team. Additionally, I've taken on the role
+          of software engineering lead for three projects during my time at
+          Microverse Bootcamp. Outside of coding and staying updated on emerging
+          technologies, I enjoy participating in charity walks and playing chess.
         </p>
         <a href="/" className="connect">
           Let&apos;s connect

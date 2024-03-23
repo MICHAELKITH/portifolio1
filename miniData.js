@@ -32,7 +32,7 @@ const projs = [
     ],
   },
   {
-    title: 'BootCamp Website',
+    title: 'Learn How to Code ',
     info: 'This is a JavaScript bootcamp capstone project. This project was made with JavaScript, HTML, and CSS. The project is responsive to mobile devices.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     image: './images/camp.png',

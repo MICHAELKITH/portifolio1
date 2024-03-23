@@ -1,19 +1,19 @@
 /* eslint-disable max-len */
-import React, { useRef, useEffect, useState } from 'react';
-import './Style.css';
+import React, { useRef, useEffect, useState } from "react";
+import "./Style.css";
 
-import Navbar from '../components/Navbar';
-import Works from '../components/works';
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar";
+import Works from "../components/works";
+import Footer from "../components/Footer";
 // import Avatar from '../components/Avatar';
-import Skills from '../../skills';
+import Skills from "../../skills";
 
 const Home = () => {
   const [visible, setVisible] = useState(false);
   const ref = useRef(null);
-  const errDisplay = document.querySelector('.message');
-  const form = document.querySelector('#myform');
-  const html = document.querySelector('html');
+  const errDisplay = document.querySelector(".message");
+  const form = document.querySelector("#myform");
+  const html = document.querySelector("html");
 
   const generateLinks = () => (
     <ul className="socials">
@@ -55,7 +55,7 @@ const Home = () => {
 
   html.onclick = () => {
     if (errDisplay) {
-      errDisplay.classList.remove('active');
+      errDisplay.classList.remove("active");
     }
   };
 
@@ -72,15 +72,15 @@ const Home = () => {
         <div className="left-head">
           <h2>Hello!</h2>
           <h4>
-            I'm experienced software engineer with 4+ years in diverse environments:
-            startups, enterprises, and agencies. Proficient in remote and
-            in-office settings, prioritizing project ownership and speedy
-            delivery. Skilled in web, mobile, and API development.
+            I'm experienced software engineer with 4+ years in diverse
+            environments: startups, enterprises, and agencies. Proficient in
+            remote and in-office settings, prioritizing project ownership and
+            speedy delivery. Skilled in Web, Mobile, XR/VR Enthusiast   and API development.
           </h4>
           <p className="body-text">
             Strong Skills:
             <strong className="SKILLS">
-              JavaScript, Golang, Docker,  C#, PostgreSQL and Postman.
+              JavaScript, Golang, Flutter, C#, PostgreSQL, Docker, Linux and Postman.
             </strong>
           </p>
           <a className="contact-btn" href="#contact">
@@ -103,18 +103,18 @@ const Home = () => {
       <section className="about" id="about-myself">
         <div className="personal-info">
           <h1>
-            About
-            {' '}
-            <br />
+            About <br />
             Myself
           </h1>
           <p className="body-text">
-            I am a certified full-stack developer, having successfully completed
-            the program at Microverse. In addition to my development skills, I
-            have practical experience in UX (User Experience) and Customer
-            Success. I have a natural aptitude for problem-solving and excel at
-            debugging. I'm highly motivated to acquire new skills and keep
-            myself updated with emerging technologies in the field.
+            I'm an experienced software engineer who constantly seeks out
+            innovative solutions to everyday problems. In my four years in this
+            industry, I've honed my analytical thinking and collaboration
+            skills, and I love working with a team. Additionally, I've taken on
+            the role of software engineering lead for three projects during my
+            time at Microverse Bootcamp. Outside of coding and staying updated
+            on emerging technologies, I enjoy participating in charity walks and
+            playing chess.
           </p>
           <a href="/" className="connect">
             Let&apos;s connect
@@ -190,7 +190,6 @@ const Home = () => {
       <Footer />
       {/* <Support visible={visible} /> */}
       {/* <Avatar /> */}
-
     </div>
   );
 };

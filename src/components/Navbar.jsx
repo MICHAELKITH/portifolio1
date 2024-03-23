@@ -20,7 +20,7 @@ export default function Navbar() {
           className={`${(link) => (link.isActive ? 'link active' : 'link')} logo`}
           to="https://www.buymeacoffee.com/mikecode"
         >
-          Buy me a coffee
+          Michael
         </NavLink>
         <ul className="page-flow">
           {
